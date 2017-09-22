@@ -66,7 +66,7 @@ func say(_ textToSay: String, to character: Character? = nil) {
     case (let textSaid, nil):
         print("You say \"\(textSaid)\", to no-one.")
     case (_, let anyCharacter?):
-        print("The \(anyCharacter) looks at you, blankly)")
+        print("The \(anyCharacter) looks at you, blankly")
     }
 }
 say("Is anybody there?") // You say "Is anybody there?", to no-one.
